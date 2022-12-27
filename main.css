@@ -58,6 +58,7 @@ a {
 
 .form-wrap button:hover {
     background-color: #37a08e;
+    cursor: pointer;
 }
 
 .form-wrap .bottom-text {
