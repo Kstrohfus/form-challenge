@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- Stylesheet -->
         <link rel="stylesheet" href="main.css" />
+        <!-- JavScript -->
+        <script src="script.js"></script>
         <!-- Google Font -->
         <link
             href="https://fonts.googleapis.com/css?family=Raleway"
@@ -20,11 +22,19 @@
                 <form>
                     <div class="form-group">
                         <label for="first-name">First Name</label>
-                        <input type="text" name="firstName" id="first-name" />
+                        <input
+                            type="text"
+                            name="firstName"
+                            id="first-name"
+                            pattern="[A-Za-z]{2-15}" />
                     </div>
                     <div class="form-group">
                         <label for="last-name">Last Name</label>
-                        <input type="text" name="lastName" id="last-name" />
+                        <input
+                            type="text"
+                            name="lastName"
+                            id="last-name"
+                            pattern="[A-Za-z]{2-15}" />
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
